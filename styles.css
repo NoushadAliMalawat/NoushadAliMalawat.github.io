@@ -1,0 +1,156 @@
+/* Reset & base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  color: #111;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Header */
+.site-header {
+  background: #fafafa;
+  border-bottom: 1px solid #eaeaea;
+  padding: 1rem 0;
+}
+
+.site-title {
+  font-size: 2rem;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.site-nav {
+  float: right;
+}
+
+.site-nav a {
+  margin-left: 1.5rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.site-nav a:hover {
+  color: #000;
+}
+
+/* Hero */
+.hero {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero .highlight {
+  color: #0070f3;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.125rem;
+  color: #666;
+}
+
+/* Sections */
+.section {
+  padding: 3rem 0;
+}
+
+.section h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.section p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Work grid */
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.work-item {
+  padding: 2rem;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.work-item:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transform: translateY(-5px);
+}
+
+.work-item h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.work-item p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #0070f3;
+  border-radius: 4px;
+  color: #0070f3;
+  font-weight: 500;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background: #0070f3;
+  color: #fff;
+}
+
+.btn-primary {
+  background: #0070f3;
+  color: #fff;
+  border: none;
+}
+
+/* Footer */
+.site-footer {
+  padding: 2rem 0;
+  text-align: center;
+  background: #fafafa;
+  border-top: 1px solid #eaeaea;
+}
+
+.site-footer p {
+  color: #888;
+  font-size: 0.875rem;
+}

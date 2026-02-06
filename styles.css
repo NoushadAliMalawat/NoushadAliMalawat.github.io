@@ -158,10 +158,10 @@ a {
 
 .profile-links {
   margin-top: 0.75rem;
+  font-size: 0.95rem;
 }
 
-.orcid-link {
-  font-size: 0.95rem;
+.profile-link {
   font-weight: 500;
   color: #2563eb;
   text-decoration: none;
@@ -169,6 +169,12 @@ a {
   transition: border-color 0.2s ease;
 }
 
-.orcid-link:hover {
+.profile-link:hover {
   border-bottom: 1px solid #2563eb;
 }
+
+.separator {
+  margin: 0 0.4rem;
+  color: #555;
+}
+

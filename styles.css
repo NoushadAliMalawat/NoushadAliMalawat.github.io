@@ -182,3 +182,22 @@ a {
   margin-top: 1rem;
 }
 
+/* Contact */
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  font-size: 1rem;
+  margin: 0.75rem 0;
+  color: #444;
+}
+
+.contact a {
+  color: #0070f3;
+  font-weight: 500;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
